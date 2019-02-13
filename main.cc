@@ -10,7 +10,7 @@ void pushQueue(templatePriorityQueue<T>* Que, int data){
 	Que->push(data);
 }
 
-template<typename T>
+template <typename T>
 void popQueue(templatePriorityQueue<T>* Que){
 	cout << "[+] Integer "<< Que->top() << " will be poped from the Priority Queue." << endl;
 	Que->pop();
